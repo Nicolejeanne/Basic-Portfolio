@@ -116,15 +116,14 @@ a {
 }
 .inset {
     width: 960px;
-    margin-top: 30px;
-    margin-left: 200px;
+    margin: 30px 0px 30px 200px;
     background-color: #ffffff;
     height: 500px;
     padding: 15px 25px 15px 75px;
     border-color: #cccccc;
     border-width: 2px;
     border-style: solid;
-    position: fixed;
+    /* position: fixed; */
 }
 
 main {
@@ -147,7 +146,7 @@ p {
     margin-right: 50px;
 }
 footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -200,68 +199,26 @@ input.submit {
 form {
     margin: 20px 0;
 }
-.hangman {
+
+.picture {
     height: 150px;
     width: 200px;
 }
-.RPG {
-    height: 150px;
-    width: 200px;
-}
-.Trivia {
-    height: 150px;
-    width: 200px;
-}
-.Rutgers {
-    height: 150px;
-    width: 200px;
-}
-.Rock {
-    height: 150px;
-    width: 200px;
-}
-label1 {
+
+.label1 {
     padding: 15px 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    float: left;
+    /* float: left; */
 }
-label2 {
-    padding: 15px 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color: #ffffff 
-}
-label3 {
-    padding: 15px 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color: #ffffff 
-}
-label4 {
-    padding: 15px 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color: #ffffff 
-}
-label5 {
-    padding: 15px 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color: #ffffff 
-}
+
 .images {
     margin: 30px 0 30px 0;
+    width: 100%;
 }
 .column {
     float: left;
     width: 33.33%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
