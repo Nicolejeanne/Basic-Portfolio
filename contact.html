@@ -8,19 +8,48 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-        <header>Nicole Maxwell</header>
 
-        <div class= "tabs">
-            <section>About</section>
+
+    <div class= "sections">
+        <header><strong>Nicole Maxwell</strong></header>
+
+        <section class= "contact">Contact</section>
+
+        <section class= "portfolio"><a href="portfolio.html">Portfolio</a></section>
+        
+        <section class= "about"><a href="index.html">About</a></section>
+
+    </div>
     
-            <section>Portfolio</section>
-    
-            <section>Contact</section>
-        </div>
-    
-        <div class= "container">
-            <main>Contact</main>
-    
-        <footer></footer>
+    <div class= "container">
+        <section class= "inset">
+            <strong><main>Contact</main></strong>
+            <div class="form">
+                    <form action= "mailto:nicolejeanne@gmail.com">
+                  
+                      <label for="name">Name</label>
+                      <br>
+                      <input type="text" class="name"    name= "name" placeholder="Dave Grohl">
+                      <br>
+                  
+                      <label for="email">Email</label>
+                      <br>
+                      <input type="text" class="email"
+                      name= "email" placeholder="example@gmail.com">
+                      <br>
+                  
+                      <label for="message">Message</label>
+                      <br>
+                      <textarea class="message" name= "message" placeholder="Your thoughts.." style="height:200px"></textarea>
+                      <br>
+                  
+                      <input type="submit" class= "submit" value="Submit">
+                  
+                    </form>
+                  </div>
+        </section>
+    </div>
+
+        <footer>Copyright</footer>
 </body>
 </html>
